@@ -3,51 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emna Mahfoudhi - E-Portfolio</title>
+    <title>Portfolio - Emna Mahfoudhi</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <header>
+    <header class="bg-primary text-white text-center py-4">
         <h1>Emna Mahfoudhi</h1>
         <p>Ingénieure en Informatique Appliquée à la Finance</p>
-        <p>📍 Tunis, Tunisie | 📧 emnamahfoudhi02@gmail.com | <a href="https://github.com/emnamahfoudhi">GitHub</a></p>
+        <img src="images/profil.jpg" alt="Photo de profil" class="rounded-circle" width="150">
     </header>
 
-    <section id="about">
-        <h2>À propos</h2>
-        <p>Passionnée par la Business Intelligence, le développement Full Stack et la gestion des données, je suis toujours à la recherche de nouvelles opportunités pour apprendre et innover.</p>
+    <section id="about" class="container my-4">
+        <h2>À propos de moi</h2>
+        <p>Passionnée par la **Business Intelligence**, le **développement web** et la **data science**, j'ai acquis des compétences solides en **Talend, Power BI, SQL, Python, Spring Boot et Angular**.</p>
+        <a href="cv.pdf" download class="btn btn-primary">Télécharger mon CV</a>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="container my-4">
         <h2>Compétences</h2>
         <ul>
-            <li>Langages : C, Java (Spring Boot), Python, JavaScript, SQL</li>
-            <li>Technologies : Talend, Power BI, Flask, GraphQL, .NET, Docker, Jenkins</li>
-            <li>Développement : Backend & Frontend (Angular, JavaScript)</li>
-            <li>Langues : Français (C2), Anglais (C2), Arabe (Natif), Espagnol (B1)</li>
+            <li>Langages : C, Java, Python, JavaScript, SQL</li>
+            <li>BI & Data : Talend, Power BI, Jupyter Notebook</li>
+            <li>DevOps : Git, Docker, Jenkins</li>
+            <li>Frameworks : Spring Boot, Angular, Flask</li>
         </ul>
     </section>
 
-    <section id="experience">
+    <section id="experience" class="container my-4">
         <h2>Expériences</h2>
-        <h3>👨‍💻 Stage BI chez Bee Coders (06/2024 – 08/2024)</h3>
-        <p>Développement d'un dashboard pour la gestion financière d'une société avec Power BI et Talend.</p>
-
-        <h3>👨‍💻 Stage Dev Web chez Bee Coders (06/2023 – 08/2023)</h3>
-        <p>Création d'une plateforme e-commerce avec Spring Boot et Angular.</p>
+        <h3>Stage BI chez Bee Coders (06/2024 – 08/2024)</h3>
+        <p>Développement d'un tableau de bord interactif sous **Power BI** pour l’analyse financière d’une entreprise.</p>
+        <h3>Stage Dev Web chez Bee Coders (06/2023 – 08/2023)</h3>
+        <p>Création d'une plateforme e-commerce avec **Spring Boot & Angular**.</p>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="container my-4">
         <h2>Projets</h2>
         <h3>📊 FloussLab (2024)</h3>
         <p>Développement d'un simulateur de marché financier intégrant des modèles de Machine Learning.</p>
-
         <h3>🔍 Dima Maak (2024)</h3>
         <p>Création d'un module de micro-assurance permettant la gestion des sinistres.</p>
     </section>
 
-    <footer>
-        <p>© 2024 Emna Mahfoudhi - <a href="mailto:emnamahfoudhi02@gmail.com">Contact</a></p>
+    <section id="contact" class="container my-4 text-center">
+        <h2>Contact</h2>
+        <p>Email : <a href="mailto:emnamahfoudhi02@gmail.com">emnamahfoudhi02@gmail.com</a></p>
+        <p>LinkedIn : <a href="https://www.linkedin.com/in/emna-mahfoudhi-754482339">linkedin.com/in/emna-mahfoudhi</a></p>
+        <p>GitHub : <a href="https://github.com/emnamahfoudhi">github.com/emnamahfoudhi</a></p>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2024 Emna Mahfoudhi - <a href="mailto:emnamahfoudhi02@gmail.com" class="text-white">Contact</a></p>
     </footer>
 </body>
 </html>
